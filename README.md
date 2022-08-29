@@ -29,14 +29,44 @@ URL do curso -> [Vetores e Animação com SVG: Trabalhando com CSS e JavaScript]
 ### 02 - Gerando SVGs
 * Criar uma imagem svg.
 
-## 03 - Formas Básicas do SVG
+### 03 - Formas Básicas do SVG
 * Desenhar as formas mais básicas dentro de um tag `<svg>`.
 * Atributos básicos de cada forma.
 
-## 04 - A Tag Path
+### 04 - A Tag Path
 * O que significa a tag `<path>`.
 * Entender os valores do atributo `d` dentro da tag `<path>`.
 * Diferença entre usar letras minúsculas e MAIÚSCULAS.
 
-## 05 - Importando SVGs
+### 05 - Importando SVGs
 * Importar um svg para o HTML através da tag `<img>`.
+
+## 02 - Começando a Animação com CSS &#x1F516;
+* Como inserir propiedades de CSS para estilizar elementos do SVG.
+* Animação de posicionamento de elementos com a ferramenta de CSS `keyframes`.
+* Animação de propriedades de CSS com `keyframes`.
+* Sistema de posicionamento e visualização do SVG com `viewBox` e `viewPort`.
+
+### 01 - Animando os Caiaques
+* Animar elementos específicos de um arquivo SVG.
+* Animar os caiaques dentro do svg.
+
+### 02 - Animando as Nuvens
+* Ajustar detalhes do HTML.
+* Animar as nuvens do svg.
+
+### 03 - Animando o Lettering
+* Animar o título.
+
+### 04 - Animando o Traçado
+* Realizar a animação do tracejado no título.
+* Utilizar as propriedades do `stroke` para criar o efeito de tracejado.
+
+### 05 - Finalizando o Header
+* Criando a animação do svg principal descendo na página.
+
+### 06 - Entendendo o Viewbox
+* O que é a **Viewbox**.
+
+### 07 - Entendendo o Viewport
+* Dimensionar a **viewbox** do svg corrigindo o erro das bordas laterais.

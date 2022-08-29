@@ -1,0 +1,31 @@
+@keyframes lettering-fill {
+    to {
+        fill: #be253f;
+    }
+}
+
+body {
+    background-color: #ffead4;;
+    
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+.container-header {
+    width: 100vw;
+}
+
+    .lett-header {
+        width: 80%;
+
+        position: absolute;
+        left: 50%;
+
+        margin-top: 10%;
+
+        fill: transparent;
+        transform: translate(-50%);
+
+        animation: lettering-fill 0.5s ease-in-out forwards 1s;
+    }
