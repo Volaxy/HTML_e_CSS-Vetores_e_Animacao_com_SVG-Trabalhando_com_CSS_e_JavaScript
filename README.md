@@ -70,3 +70,24 @@ URL do curso -> [Vetores e Animação com SVG: Trabalhando com CSS e JavaScript]
 
 ### 07 - Entendendo o Viewport
 * Dimensionar a **viewbox** do svg corrigindo o erro das bordas laterais.
+
+## 03 - Layout com CSS &#x1F516;
+* Instalar e utilizar fontes externas com Google Fonts.
+* Propriedades de CSS para estilo e alinhamento.
+* Utilizar o CSS Flexbox para posicionar elementos de forma responsiva.
+* Entender e alterar o posicionamento de elementos SVG usando o `viewPort`.
+
+### 01 - Inserindo Cards no HTML
+* Adicionar a seção de cards.
+* Exportar os 2 arquivos como SVG's dentro do projeto.
+
+### 02 - Iniciando os Estilos dos Cards
+* Usar a unidade de medida `em`.
+* Estilizar os títulos dos cards.
+
+### 03 - Utilizando o Flexbox
+* Aplicar estilos em cada card.
+
+### 04 - Mais Prática com o Viewbox
+* Modificar os valores da **viewbox** para ajustar o SVG no centro do card.
+* Entender os eixos *X* e *Y* de um SVG.
