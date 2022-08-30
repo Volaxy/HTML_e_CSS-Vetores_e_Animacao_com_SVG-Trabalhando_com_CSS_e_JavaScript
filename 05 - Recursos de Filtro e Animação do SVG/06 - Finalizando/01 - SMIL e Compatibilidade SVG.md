@@ -1,0 +1,5 @@
+O SVG tem seu próprio recurso de animação, utilizando as tags `<animate>`, `<animateMotion>` e `<animateTransform>`, a chamada animação com SMIL (Synchronized Multimedia Integration Language ou Linguagem de Integração Multimídia Sincronizada). Pode ser que você encontre alguns tutoriais sobre animação de SVGs utilizando essa ferramenta.
+
+Fizemos a opção de não trabalhar com ela durante este curso pois, no momento em que ele foi desenvolvido, os navegadores estavam retirando o suporte ao SMIL e a ferramenta estava sendo depreciada (deprecated) em favor de animações que utilizam CSS e JavaScript.
+
+Falando sobre compatibilidade, quando escolhemos incluir esta ou aquela animação, filtro ou tag em nosso front, sempre é bom verificar qual o nível de compatibilidade da funcionalidade com navegadores antigos e até onde queremos essa compatibilidade. O site [Can I Use](https://caniuse.com/) (em inglês) é a ferramenta ideal para esse tipo de verificação; você pode fazer tanto uma [busca geral](https://caniuse.com/#feat=svg) quanto de [propriedades específicas](https://caniuse.com/#search=feDisplacementMap) do SVG, por exemplo.

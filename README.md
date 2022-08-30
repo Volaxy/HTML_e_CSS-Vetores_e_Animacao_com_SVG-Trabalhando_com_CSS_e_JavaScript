@@ -14,6 +14,7 @@ URL do curso -> [Vetores e Animação com SVG: Trabalhando com CSS e JavaScript]
 * [Vecteezy](https://www.vecteezy.com/) - Site de repositório para ícones e ilustrações.
 * [SVG Path Builder](https://codepen.io/anthonydugois/pen/mewdyZ?editors=0010) - Site para testar a criação de SVG's utilizando a tag `<path>`.
 * [GreenSock](https://greensock.com/) - Biblioteca de JS usada para animar SVGs.
+* [W3Schools SVG Filters](https://www.w3schools.com/graphics/svg_filters_intro.asp) - Lista de todos os filtros de um SVG.
 
 ## 01 - Conhecendo o SVG e Algumas Ferramentas &#x1F516;
 * O que é SVG.
@@ -130,3 +131,31 @@ URL do curso -> [Vetores e Animação com SVG: Trabalhando com CSS e JavaScript]
 ### 08 - Utilizando Bibliotecas Externas
 * Importar a biblioteca do **Tween**.
 * Controlar a animação dos SVGs.
+
+## 05 - Recursos de Filtro e Animação do SVG &#x1F516;
+* Mais sobre a tag `<defs>`.
+* Uso de filtros próprios do SVG.
+* Uso de filtros do SVG com JavaScript.
+* Mais sobre ferramentas de posicionamento.
+
+### 01 - Adicionando Novos Elementos ao Projeto
+* Adicionar o SVG do título do footer.
+* Estilizar o SVG.
+
+### 02 - Utilizando a Tag Defs
+* Usar um filtro no SVG.
+* Adicionar efeito de blur no SVG.
+
+### 03 - Aplicando Filtros
+* Aplicar mais efeitos no SVG.
+* Ver todos os efeitos de SVG.
+
+### 04 - Usando JS para Animar Filtros
+* Inserir efeitos no título do footer.
+
+### 05 - Estilos e Posicionamento no Footer
+* Adicionar um plano de fundo para o footer.
+
+### 06 - Finalizando
+* Criar as animações da imagem de fundo.
+* Ajustar o texto do footer.

@@ -1,0 +1,106 @@
+@keyframes lettering-fill {
+    to {
+        fill: #be253f;
+    }
+}
+
+@keyframes lettering-trace {
+    to {
+        stroke-dasharray: 3000;
+        stroke-dashoffset: 0;
+    }
+}
+
+h1, h2 {
+    color: #be253f;
+    font-family: 'Pacifico', cursive;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+body {
+    background-color: #ffead4;;
+    
+    margin: 0;
+
+    overflow-x: hidden;
+}
+
+.container-header {
+    width: 100vw;
+}
+
+    .lett-header {
+        width: 80%;
+
+        position: absolute;
+        left: 50%;
+
+        margin-top: 10%;
+
+        fill: transparent;
+        transform: translate(-50%);
+
+        animation: lettering-fill 0.5s ease-in-out forwards 3s;
+    }
+
+        .lett-header path {
+            stroke-width: 2px;
+            stroke: #be253f;
+            stroke-dasharray: 3000;
+            stroke-dashoffset: 3000;
+
+            animation: lettering-trace 4s ease-in-out forwards 1.5s;
+        }
+
+.container-cards {
+    width: 80%;
+
+    display: flex;
+
+    margin: auto;
+}
+
+    .card {
+        background-color: white;
+        width: 50%;
+
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+.container-footer {
+    position: relative;
+}
+
+    .lett-footer {
+        width: 60%;
+
+        position: absolute;
+        left: 50%;
+        
+        margin-top: 20%;
+
+        fill: white;
+        opacity: .4;
+        transform: translate(-50%);
+    }
+
+    .footer-infos {
+        text-align: center;
+    }
