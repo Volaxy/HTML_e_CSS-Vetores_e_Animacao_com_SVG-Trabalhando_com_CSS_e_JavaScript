@@ -13,6 +13,7 @@ URL do curso -> [Vetores e Animação com SVG: Trabalhando com CSS e JavaScript]
 ## Links Úteis &#x1F517;
 * [Vecteezy](https://www.vecteezy.com/) - Site de repositório para ícones e ilustrações.
 * [SVG Path Builder](https://codepen.io/anthonydugois/pen/mewdyZ?editors=0010) - Site para testar a criação de SVG's utilizando a tag `<path>`.
+* [GreenSock](https://greensock.com/) - Biblioteca de JS usada para animar SVGs.
 
 ## 01 - Conhecendo o SVG e Algumas Ferramentas &#x1F516;
 * O que é SVG.
@@ -91,3 +92,41 @@ URL do curso -> [Vetores e Animação com SVG: Trabalhando com CSS e JavaScript]
 ### 04 - Mais Prática com o Viewbox
 * Modificar os valores da **viewbox** para ajustar o SVG no centro do card.
 * Entender os eixos *X* e *Y* de um SVG.
+
+## 04 - Animação com JS e Bibliotecas &#x1F516;
+* Capturar eventos de tela com `addEventListener`.
+* Criar objetos e instanciá-los utilizando classes do JavaScript.
+* Utilizar alguns métodos específicos para trabalhar eventos de DOM.
+* Utilizar palavras-chaves de Orientação a Objetos como `this` e `bind`.
+* Descobrir como instalar e utilizar bibliotecas externas em JavaScript.
+
+### 01 - Pegando Eventos de Tela com JS
+* Resolver o erro de **CORS** instalando a extensão do **Live Server** no VS Code.
+* Criar uma classe `Cards`.
+* Importar arquivos JS para o HTML.
+* Explicação do método `addEventListener()`.
+
+### 02 - Utilizando mais Métodos JS com o DOM
+* Utilizar o método `getBoundingClientRect()` para pegar o valor do eixo Y de um elemento HTML.
+
+### 03 - Juntando JS e CSS
+* Adicionar estilos a um elemento no DOM através do JS.
+
+### 04 - Utilizando Valores Variáveis no CSS
+* Usar `\`` para formatar textos em um arquivo JS.
+* Mover o elemento HTML usando o valor da posição do eixo Y para o estilo do `translate`.
+
+### 05 - Trabalhando com Classes, This e Bind
+* Usar a palavra chave `this`.
+* Usar a função `bind()`.
+
+### 06 - Finalizando a Animação com JS
+* Deixar a animação dos cards mais suave.
+
+### 07 - Referenciando os Ícones no JS
+* Criar uma classe `Icons`.
+* Referenciar os 2 SVGs dos cards.
+
+### 08 - Utilizando Bibliotecas Externas
+* Importar a biblioteca do **Tween**.
+* Controlar a animação dos SVGs.
